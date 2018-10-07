@@ -45,6 +45,8 @@ $(document).on("click", "#add-item", function() {
     var itemInput = $("#new-list-item");
     list.append("<li>" + itemInput.val() + " <button class='delete-item'>X</button></li>");
 });
+$(document).on("click", ".complete-item", function() {
+	$(this).parentNode.css()
 
 
 

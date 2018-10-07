@@ -1,65 +1,161 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: teal;
+    color: black;
+
+
 }
 
 /*********** HEADER ************/
 
 header {
     font-family: 'Roboto Slab', serif;
-    background-color: teal;
-    color: white;
-    padding: 10px;
+    background-image: url("rolls4_opacity.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+    background-position: -200px;
+    color: black;
+    padding: 100px;
     text-align: right;
 }
 
 header a {
-    color: gold;
+    color: black;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
+
 }
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
+
 }
 
 /*********** LISTS ************/
 
-#todo-lists {
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 80%;
+#home-block-1 {
+    padding: 0px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+#home-block-1:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
 }
 
-.list {
-    background-color: #eee;
-    border: 1px solid #ccc;
+#home-block-1-text {
+    text-align: right;
     padding: 10px;
-    margin-bottom: 10px;
+    position: absolute;
+    width: 66%;
+    margin: 100;
+    top: 0;
+    right: 0;
+
+}
+#home-block-2-text {
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+    float: right;
+    top: 0;
+    position: absolute;
+    right:0;
+    width: 66%;
+}
+#home-block-2 {
+    float: right;
+    padding-top: 0px;
+    width: 650px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+#home-block-2:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#product-left {
+    padding: 0px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+#product-left:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+#product-right {
+    float: right;
+    padding-top: 0px;
+    width: 650px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+#product-right:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#product-pic {
+    left: 100px;
+    top: 75px;
+    padding-top: 0px;
+    width: 500px;
+    opacity: 0.9;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+#product-description {
+    float: right;
+    top: 75px;
+    padding: 0px;
+    width: 700px;
+    opacity: 0.8;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+}
+#product-title {
+    padding: 15px;
+    font-size: 1.5em;
+}
+.blocks {
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 2em;
 }
 
 .list a {
     text-decoration: none;
-    color: teal;
+    color: red;
 }
 
-.list-title {
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 20px;
-}
 
 button {
     border-radius: 10px;
-    background-color: white;
-    border: 1px solid teal;
+    background-color: rgba(210,181,91,0.9);
+    border: 1px black;
     padding: 10px;
-    color: teal;
+    color: black;
     font-size: 0.8em;
 }
 
-input {
-    padding: 10px;
-    font-size: 0.8em;
-}
