@@ -1,0 +1,52 @@
+<!--CART-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Bake Shop</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="newmain.js" type="text/javascript"></script>
+    
+    
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--title and nav bar-->
+            <h1>Bun Bun Bake Shop</h1>
+            <nav>
+                <a href="index.html">home</a> -
+                <a href="list.html">buns</a> - 
+                <a href="index.html">about</a> -
+                <a id="cart_link" href="cart.html">cart</a> 
+            </nav>
+        </header>
+
+
+    <div class="shopping-cart">
+  <!-- Title -->
+        <div class="title">
+            Your Cart
+    </div>
+ 
+  
+ 
+
+</div>
+<div class="checkout-bar">
+    <span id="subtotal">Subtotal:</span>
+    <button> <a href="list.html">Continue Shopping</a> </button>
+    <button> Proceed to Checkout </button>
+</div>
+
+<script type="text/javascript">
+renderCart();
+addDeleteListener();
+</script>
+</body>

@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+
+}
+
+/*********** HEADER ************/
+
+header {
+    font-family: 'Roboto Slab', serif;
+    background-image: url("rolls4_opacity.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+    background-position: -200px;
+    color: black;
+    padding: 100px;
+    text-align: right;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+
+}
+
+/*********** BLOCKS ************/
+
+#home-block-1 {
+    padding: 0px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+#home-block-1:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#home-block-1-text {
+    text-align: right;
+    padding: 10px;
+    position: absolute;
+    width: 66%;
+    margin: 100;
+    top: 0;
+    right: 0;
+
+}
+#home-block-2-text {
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+    float: right;
+    top: 0;
+    position: absolute;
+    right:0;
+    width: 66%;
+}
+#home-block-2 {
+    float: right;
+    padding-top: 0px;
+    width: 650px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+#home-block-2:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#product-left {
+    padding: 0px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+#product-left:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+#product-right {
+    float: right;
+    padding-top: 0px;
+    width: 650px;
+    opacity: 0.7;
+    transition-duration: 0.8s;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+#product-right:hover {
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+#product-pic {
+    left: 100px;
+    top: 75px;
+    padding-top: 0px;
+    width: 500px;
+    opacity: 0.9;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+#product-description {
+    float: right;
+    top: 75px;
+    padding: 0px;
+    width: 700px;
+    opacity: 0.8;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+}
+#productTitle {
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+#quant {
+
+}
+#glaze{
+
+}
+#price{
+
+}
+#addToCart{
+
+}
+#subtotal{
+
+}
+#cart_link{
+    
+}
+.blocks {
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+.list a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+.shopping-cart {
+  
+  width: 900px;
+  height: 600px;
+  margin-left: 80px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding-top: 20px;
+  color: #5E6977;
+  font-size: 24px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item: nth-child {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+}
+
+.buttons {
+    position: relative;
+    padding: 10px;
+    margin: 0px
+}
+
+.delete-btn {
+    width: 18px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+ 
+
+ 
+.description {
+    padding-top: 10px;
+    margin-right: 60px;
+    margin-left: 10px;
+    width: 150px;
+}
+ 
+.description span {
+    display: block;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 400;
+}
+ 
+.description span:first-child {
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+.description span:last-child {
+    font-weight: 300;
+    margin-top: 20px;
+    color: #5E6977;
+    font-size: 14px;
+}
+
+.quantity {
+    padding-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.quantity input {
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+ 
+button[class*=btn] {
+    background-color: #ffffff;
+    opacity: .7;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.minus-btn img {
+    margin: 3px;
+
+}
+.plus-btn img {
+    margin: 3px;
+}
+ 
+button:focus,
+input:focus {
+    outline:0;
+}
+
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+
+
+.checkout-bar {
+    display: inline-block;
+    font-size: 30px;
+    right: 0px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+    top: 100px;
+}
+button {
+    background-color: #daa520;
+}

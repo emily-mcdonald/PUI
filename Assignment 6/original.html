@@ -1,0 +1,59 @@
+<!--ORIGINAL BUN PRODUCT PAGE-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bun Bun Bake Shop</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="newmain.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--title and nav bar-->
+            <h1>Bun Bun Bake Shop</h1>
+            <nav>
+                <a href="index.html">home</a> -
+                <a href="list.html">buns</a> - 
+                <a href="index.html">about</a> -
+                <a href="cart.html">cart</a> 
+            </nav>
+        </header>
+
+
+        <!--original roll pic-->
+        <div id="product-pic"><img id="bun-pic" src="none.jpg" width="500" height="355"></div>
+
+        <div id="product-description">
+            <div id="productTitle" style="background-color: rgba(210,181,91,0.8)">Original Bun</div>
+            </br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus ac ex eu convallis. Sed dapibus suscipit bibendum. Vivamus faucibus lorem in purus lobortis, sit amet semper nisi sagittis. Aenean placerat bibendum accumsan. Etiam non nulla luctus, convallis nibh auctor, tempus tellus. Morbi porttitor, lacus sed vestibulum volutpat, urna augue bibendum nibh, vel posuere massa ante vel risus. Quisque congue sit amet nibh sit amet porta.
+        </br>
+        </br>
+        <div id="price">$5</div>    
+        <select id="quant">
+                <option value="1">Choose Quantity</option>
+                <option value="1">1 Bun</option>
+                <option value="3">3 Buns</option>
+                <option value="6">6 Buns</option>
+                <option value="12">12 Buns</option>
+            </select>
+        <select id="glaze">
+                <option value="none">Choose Glaze</option>
+                <option value="none">No Glaze</option>
+                <option value="sugar-milk">Sugar Milk</option>
+                <option value="vanilla-milk">Vanilla Milk</option>
+                <option value="double-chocolate">Double Chocolate</option>
+            </select>
+        </br>
+        </br>
+
+            <button id="addToCart">Add to Cart</button>
+        </div>
+</body>
